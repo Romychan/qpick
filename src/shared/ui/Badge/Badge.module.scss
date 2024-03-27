@@ -1,0 +1,38 @@
+@import '~/app/assets/styles/_typography.scss';
+
+.container {
+  position: relative;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 120px;
+  position: absolute;
+  top: 0;
+  inset-inline-end: 0;
+  transform: translate(35%, -35%);
+  height: 1.2rem;
+  aspect-ratio: 1/1;
+  @include text-sm;
+  @include text-medium;
+  color: #ffffff;
+  transition: 0.2s;
+
+  &.gray {
+    background: var(--gray-900);
+  }
+
+  &.green {
+    background: var(--green-500);
+  }
+
+  &.red {
+    background: var(--red-500);
+  }
+
+  &.yellow {
+    background: var(--yellow-500);
+  }
+}

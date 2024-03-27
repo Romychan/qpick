@@ -1,0 +1,154 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`RadioGroup > should match snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="_container_00874a _horizontal_00874a"
+        data-testid="radio-group"
+      >
+        <label
+          class="_container_d7e7cf"
+          for="1"
+        >
+          <input
+            class="_input_d7e7cf"
+            id="1"
+            name="1"
+            type="radio"
+            value="1"
+          />
+          <span
+            class="_check_d7e7cf"
+          />
+          <span
+            class="_label_d7e7cf"
+          >
+            Item #1
+          </span>
+        </label>
+        <label
+          class="_container_d7e7cf"
+          for="2"
+        >
+          <input
+            class="_input_d7e7cf"
+            id="2"
+            name="2"
+            type="radio"
+            value="2"
+          />
+          <span
+            class="_check_d7e7cf"
+          />
+          <span
+            class="_label_d7e7cf"
+          >
+            Item #2
+          </span>
+        </label>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="_container_00874a _horizontal_00874a"
+      data-testid="radio-group"
+    >
+      <label
+        class="_container_d7e7cf"
+        for="1"
+      >
+        <input
+          class="_input_d7e7cf"
+          id="1"
+          name="1"
+          type="radio"
+          value="1"
+        />
+        <span
+          class="_check_d7e7cf"
+        />
+        <span
+          class="_label_d7e7cf"
+        >
+          Item #1
+        </span>
+      </label>
+      <label
+        class="_container_d7e7cf"
+        for="2"
+      >
+        <input
+          class="_input_d7e7cf"
+          id="2"
+          name="2"
+          type="radio"
+          value="2"
+        />
+        <span
+          class="_check_d7e7cf"
+        />
+        <span
+          class="_label_d7e7cf"
+        >
+          Item #2
+        </span>
+      </label>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -1,0 +1,25 @@
+@import '~/app/assets/styles/_typography.scss';
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  row-gap: 2rem;
+  width: 100%;
+}
+
+.button {
+  aspect-ratio: 1/1;
+  line-height: normal !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+  padding: 0px;
+}
+
+.empty {
+  @include text-sm;
+  @include text-medium;
+  color: var(--gray-900);
+  text-align: center;
+}

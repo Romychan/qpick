@@ -1,0 +1,684 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`PaymentPage > should match snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="_container_3aa6ad"
+      >
+        <h1
+          class="_title_3aa6ad"
+        >
+          Оплата товара
+        </h1>
+        <form
+          class="_form_d372cb"
+        >
+          <div
+            class="_container_d372cb"
+          >
+            <div
+              class="_container_1d0052 _item_d372cb"
+            >
+              <h2
+                class="_title_d372cb"
+              >
+                Покупатель
+              </h2>
+              <div
+                class="_container_0cf10a"
+                data-testid="user-form"
+              >
+                <div
+                  class="_container_77a9ed _primary_77a9ed _top_77a9ed"
+                >
+                  <label
+                    class="_label_77a9ed"
+                    for="user.firstName"
+                  >
+                    Имя
+                    <span
+                      class="_required_77a9ed"
+                    >
+                      *
+                    </span>
+                  </label>
+                  <div
+                    class="_content_77a9ed"
+                  >
+                    <input
+                      autocomplete="off"
+                      class="_input_95237c _bordered_95237c"
+                      data-testid="input-field"
+                      id="user.firstName"
+                      name="user.firstName"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="_container_77a9ed _primary_77a9ed _top_77a9ed"
+                >
+                  <label
+                    class="_label_77a9ed"
+                    for="user.secondName"
+                  >
+                    Фамилия
+                    <span
+                      class="_required_77a9ed"
+                    >
+                      *
+                    </span>
+                  </label>
+                  <div
+                    class="_content_77a9ed"
+                  >
+                    <input
+                      autocomplete="off"
+                      class="_input_95237c _bordered_95237c"
+                      data-testid="input-field"
+                      id="user.secondName"
+                      name="user.secondName"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="_container_77a9ed _primary_77a9ed _top_77a9ed"
+                >
+                  <label
+                    class="_label_77a9ed"
+                    for="user.email"
+                  >
+                    Email
+                    <span
+                      class="_required_77a9ed"
+                    >
+                      *
+                    </span>
+                  </label>
+                  <div
+                    class="_content_77a9ed"
+                  >
+                    <input
+                      autocomplete="off"
+                      class="_input_95237c _bordered_95237c"
+                      data-testid="input-field"
+                      id="user.email"
+                      name="user.email"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="_container_1d0052 _item_d372cb"
+            >
+              <h2
+                class="_title_d372cb"
+              >
+                Способ оплаты
+              </h2>
+              <div
+                class="_container_00874a _horizontal_00874a"
+                data-testid="radio-group"
+              >
+                <label
+                  class="_container_d7e7cf"
+                  for="card"
+                >
+                  <input
+                    checked=""
+                    class="_input_d7e7cf"
+                    id="card"
+                    name="card"
+                    type="radio"
+                    value="card"
+                  />
+                  <span
+                    class="_check_d7e7cf"
+                  />
+                  <span
+                    class="_label_d7e7cf"
+                  >
+                    Банковская карта
+                  </span>
+                </label>
+                <label
+                  class="_container_d7e7cf"
+                  for="cash"
+                >
+                  <input
+                    class="_input_d7e7cf"
+                    id="cash"
+                    name="cash"
+                    type="radio"
+                    value="cash"
+                  />
+                  <span
+                    class="_check_d7e7cf"
+                  />
+                  <span
+                    class="_label_d7e7cf"
+                  >
+                    Наличные
+                  </span>
+                </label>
+              </div>
+              <div
+                class="_container_7becc1"
+                data-testid="card-payment"
+              >
+                <div
+                  class="_container_77a9ed _primary_77a9ed _top_77a9ed"
+                >
+                  <label
+                    class="_label_77a9ed"
+                    for="payment.card"
+                  >
+                    Номер карты
+                    <span
+                      class="_required_77a9ed"
+                    >
+                      *
+                    </span>
+                  </label>
+                  <div
+                    class="_content_77a9ed"
+                  >
+                    <input
+                      autocomplete="off"
+                      class="_input_95237c _bordered_95237c"
+                      data-testid="input-field"
+                      id="payment.card"
+                      maxlength="19"
+                      minlength="4"
+                      name="payment.card"
+                      placeholder="1234 1234 1234 1234"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="_row_7becc1"
+                >
+                  <div
+                    class="_container_77a9ed _primary_77a9ed _top_77a9ed"
+                  >
+                    <label
+                      class="_label_77a9ed"
+                      for="payment.expiryDate"
+                    >
+                      Срок действия
+                      <span
+                        class="_required_77a9ed"
+                      >
+                        *
+                      </span>
+                    </label>
+                    <div
+                      class="_content_77a9ed"
+                    >
+                      <input
+                        autocomplete="off"
+                        class="_input_95237c _bordered_95237c"
+                        data-testid="input-field"
+                        id="payment.expiryDate"
+                        maxlength="5"
+                        minlength="5"
+                        name="payment.expiryDate"
+                        placeholder="ММ/ГГ"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="_container_77a9ed _primary_77a9ed _top_77a9ed"
+                  >
+                    <label
+                      class="_label_77a9ed"
+                      for="payment.cvv"
+                    >
+                      CVC/CVV
+                      <span
+                        class="_required_77a9ed"
+                      >
+                        *
+                      </span>
+                    </label>
+                    <div
+                      class="_content_77a9ed"
+                    >
+                      <input
+                        autocomplete="off"
+                        class="_input_95237c _bordered_95237c"
+                        data-testid="input-field"
+                        id="payment.cvv"
+                        maxlength="3"
+                        minlength="3"
+                        name="payment.cvv"
+                        placeholder="***"
+                        type="password"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="_checkout_d372cb"
+          >
+            <div
+              class="_container_1d0052 _container_03b5b0"
+            >
+              <div
+                class="_information_03b5b0"
+              >
+                <span
+                  class="_text_03b5b0"
+                >
+                  Итого
+                </span>
+                <span
+                  class="_text_03b5b0"
+                  data-testid="checkout-total-price"
+                >
+                  ₽ 
+                  0
+                </span>
+              </div>
+              <div
+                class="_actions_03b5b0"
+              >
+                <button
+                  class="_button_0302f3 _primary_0302f3 _lg_0302f3"
+                  data-testid="order-button"
+                  disabled=""
+                  type="submit"
+                >
+                  Заказать
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div
+      class="_container_f24d02 _top-right_f24d02"
+      data-testid="toast-container"
+    />
+  </body>,
+  "container": <div>
+    <div
+      class="_container_3aa6ad"
+    >
+      <h1
+        class="_title_3aa6ad"
+      >
+        Оплата товара
+      </h1>
+      <form
+        class="_form_d372cb"
+      >
+        <div
+          class="_container_d372cb"
+        >
+          <div
+            class="_container_1d0052 _item_d372cb"
+          >
+            <h2
+              class="_title_d372cb"
+            >
+              Покупатель
+            </h2>
+            <div
+              class="_container_0cf10a"
+              data-testid="user-form"
+            >
+              <div
+                class="_container_77a9ed _primary_77a9ed _top_77a9ed"
+              >
+                <label
+                  class="_label_77a9ed"
+                  for="user.firstName"
+                >
+                  Имя
+                  <span
+                    class="_required_77a9ed"
+                  >
+                    *
+                  </span>
+                </label>
+                <div
+                  class="_content_77a9ed"
+                >
+                  <input
+                    autocomplete="off"
+                    class="_input_95237c _bordered_95237c"
+                    data-testid="input-field"
+                    id="user.firstName"
+                    name="user.firstName"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div
+                class="_container_77a9ed _primary_77a9ed _top_77a9ed"
+              >
+                <label
+                  class="_label_77a9ed"
+                  for="user.secondName"
+                >
+                  Фамилия
+                  <span
+                    class="_required_77a9ed"
+                  >
+                    *
+                  </span>
+                </label>
+                <div
+                  class="_content_77a9ed"
+                >
+                  <input
+                    autocomplete="off"
+                    class="_input_95237c _bordered_95237c"
+                    data-testid="input-field"
+                    id="user.secondName"
+                    name="user.secondName"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div
+                class="_container_77a9ed _primary_77a9ed _top_77a9ed"
+              >
+                <label
+                  class="_label_77a9ed"
+                  for="user.email"
+                >
+                  Email
+                  <span
+                    class="_required_77a9ed"
+                  >
+                    *
+                  </span>
+                </label>
+                <div
+                  class="_content_77a9ed"
+                >
+                  <input
+                    autocomplete="off"
+                    class="_input_95237c _bordered_95237c"
+                    data-testid="input-field"
+                    id="user.email"
+                    name="user.email"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="_container_1d0052 _item_d372cb"
+          >
+            <h2
+              class="_title_d372cb"
+            >
+              Способ оплаты
+            </h2>
+            <div
+              class="_container_00874a _horizontal_00874a"
+              data-testid="radio-group"
+            >
+              <label
+                class="_container_d7e7cf"
+                for="card"
+              >
+                <input
+                  checked=""
+                  class="_input_d7e7cf"
+                  id="card"
+                  name="card"
+                  type="radio"
+                  value="card"
+                />
+                <span
+                  class="_check_d7e7cf"
+                />
+                <span
+                  class="_label_d7e7cf"
+                >
+                  Банковская карта
+                </span>
+              </label>
+              <label
+                class="_container_d7e7cf"
+                for="cash"
+              >
+                <input
+                  class="_input_d7e7cf"
+                  id="cash"
+                  name="cash"
+                  type="radio"
+                  value="cash"
+                />
+                <span
+                  class="_check_d7e7cf"
+                />
+                <span
+                  class="_label_d7e7cf"
+                >
+                  Наличные
+                </span>
+              </label>
+            </div>
+            <div
+              class="_container_7becc1"
+              data-testid="card-payment"
+            >
+              <div
+                class="_container_77a9ed _primary_77a9ed _top_77a9ed"
+              >
+                <label
+                  class="_label_77a9ed"
+                  for="payment.card"
+                >
+                  Номер карты
+                  <span
+                    class="_required_77a9ed"
+                  >
+                    *
+                  </span>
+                </label>
+                <div
+                  class="_content_77a9ed"
+                >
+                  <input
+                    autocomplete="off"
+                    class="_input_95237c _bordered_95237c"
+                    data-testid="input-field"
+                    id="payment.card"
+                    maxlength="19"
+                    minlength="4"
+                    name="payment.card"
+                    placeholder="1234 1234 1234 1234"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div
+                class="_row_7becc1"
+              >
+                <div
+                  class="_container_77a9ed _primary_77a9ed _top_77a9ed"
+                >
+                  <label
+                    class="_label_77a9ed"
+                    for="payment.expiryDate"
+                  >
+                    Срок действия
+                    <span
+                      class="_required_77a9ed"
+                    >
+                      *
+                    </span>
+                  </label>
+                  <div
+                    class="_content_77a9ed"
+                  >
+                    <input
+                      autocomplete="off"
+                      class="_input_95237c _bordered_95237c"
+                      data-testid="input-field"
+                      id="payment.expiryDate"
+                      maxlength="5"
+                      minlength="5"
+                      name="payment.expiryDate"
+                      placeholder="ММ/ГГ"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="_container_77a9ed _primary_77a9ed _top_77a9ed"
+                >
+                  <label
+                    class="_label_77a9ed"
+                    for="payment.cvv"
+                  >
+                    CVC/CVV
+                    <span
+                      class="_required_77a9ed"
+                    >
+                      *
+                    </span>
+                  </label>
+                  <div
+                    class="_content_77a9ed"
+                  >
+                    <input
+                      autocomplete="off"
+                      class="_input_95237c _bordered_95237c"
+                      data-testid="input-field"
+                      id="payment.cvv"
+                      maxlength="3"
+                      minlength="3"
+                      name="payment.cvv"
+                      placeholder="***"
+                      type="password"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="_checkout_d372cb"
+        >
+          <div
+            class="_container_1d0052 _container_03b5b0"
+          >
+            <div
+              class="_information_03b5b0"
+            >
+              <span
+                class="_text_03b5b0"
+              >
+                Итого
+              </span>
+              <span
+                class="_text_03b5b0"
+                data-testid="checkout-total-price"
+              >
+                ₽ 
+                0
+              </span>
+            </div>
+            <div
+              class="_actions_03b5b0"
+            >
+              <button
+                class="_button_0302f3 _primary_0302f3 _lg_0302f3"
+                data-testid="order-button"
+                disabled=""
+                type="submit"
+              >
+                Заказать
+              </button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

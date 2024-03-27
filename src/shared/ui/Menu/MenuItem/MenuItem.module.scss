@@ -1,0 +1,24 @@
+@import '~/app/assets/styles/_typography.scss';
+
+.container {
+  list-style-type: none;
+}
+
+.link {
+  @include text-md;
+  color: var(--gray-1000);
+  transition: 0.2s;
+
+  & svg {
+    fill: var(--gray-1000);
+    transition: 0.2s;
+  }
+
+  &:hover {
+    color: var(--yellow-500);
+
+    & svg {
+      fill: var(--yellow-500);
+    }
+  }
+}

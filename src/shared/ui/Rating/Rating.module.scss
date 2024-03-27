@@ -1,0 +1,19 @@
+@import '~/app/assets/styles/_typography.scss';
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 0.33rem;
+}
+
+.icon {
+  aspect-ratio: 1/1;
+  fill: var(--yellow-300);
+  transform: translateY(-1px);
+}
+
+.text {
+  @include text-md;
+  @include text-semibold;
+  color: var(--gray-600);
+}

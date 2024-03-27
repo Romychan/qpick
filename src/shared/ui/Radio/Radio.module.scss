@@ -1,0 +1,50 @@
+@import '~/app/assets/styles/_typography.scss';
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  transition: 0.2s;
+
+  &:hover {
+    & .check:before {
+      background: var(--yellow-300);
+    }
+  }
+}
+
+.input {
+  display: none;
+
+  &:checked ~ .check:before {
+    background: var(--yellow-500);
+  }
+}
+
+.check {
+  display: inline-block;
+  position: relative;
+  width: 1rem;
+  aspect-ratio: 1/1;
+  border: 2px solid var(--gray-400);
+  border-radius: 120px;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 120px;
+    width: 0.5rem;
+    aspect-ratio: 1/1;
+    transition: 0.2s;
+  }
+}
+
+.label {
+  @include text-sm;
+  @include text-medium;
+  color: var(--gray-1000);
+}

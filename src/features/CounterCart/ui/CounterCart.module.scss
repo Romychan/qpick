@@ -1,0 +1,15 @@
+@import '~/app/assets/styles/_typography.scss';
+
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.total {
+  @include text-md;
+  @include text-semibold;
+  color: var(--gray-800);
+}

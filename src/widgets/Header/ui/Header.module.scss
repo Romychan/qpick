@@ -1,0 +1,28 @@
+.container {
+  padding: 1rem 0rem;
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.items {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.link {
+  &:hover {
+    .icon {
+      fill: var(--yellow-500);
+    }
+  }
+}
+
+.icon {
+  fill: var(--gray-600);
+  transition: 0.2s;
+}

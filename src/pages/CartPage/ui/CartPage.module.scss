@@ -1,0 +1,52 @@
+@import '~/app/assets/styles/_typography.scss';
+
+.title {
+  @include text-lg;
+  @include text-semibold;
+  margin-bottom: 1rem;
+  color: var(--gray-800);
+}
+
+.content {
+  display: flex;
+  align-items: flex-start;
+  gap: 8.53rem;
+  flex-grow: 1;
+}
+
+.items {
+  width: 100%;
+}
+
+.checkout {
+  width: 100%;
+  max-width: 350px;
+  position: sticky;
+  top: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .content {
+    gap: 2rem;
+  }
+
+  .checkout {
+    width: 100%;
+    max-width: 250px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .content {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .checkout {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    top: 0;
+  }
+}

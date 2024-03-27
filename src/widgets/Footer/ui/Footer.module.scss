@@ -1,0 +1,30 @@
+.container {
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 720px) {
+  .inner {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .wrapper {
+    gap: 1rem;
+    align-items: center;
+  }
+}

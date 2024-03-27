@@ -1,0 +1,12 @@
+.button {
+  &:hover {
+    & .icon {
+      fill: var(--red-500);
+    }
+  }
+}
+
+.icon {
+  transition: 0.2s;
+  fill: var(--red-300);
+}

@@ -1,0 +1,40 @@
+@import '~/app/assets/styles/_typography.scss';
+
+.container {
+}
+
+.title {
+  @include text-lg;
+  @include text-semibold;
+  color: var(--gray-600);
+  margin-bottom: 1.333rem;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
+
+.empty {
+  @include text-sm;
+  @include text-medium;
+  color: var(--gray-900);
+  text-align: center;
+  grid-column-end: 3;
+}
+
+@media screen and (max-width: 1024px) {
+  .items {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 1rem;
+    row-gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .items {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}

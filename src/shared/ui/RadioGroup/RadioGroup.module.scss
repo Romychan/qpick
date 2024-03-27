@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+
+  &.horizontal {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  &.vertical {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+}

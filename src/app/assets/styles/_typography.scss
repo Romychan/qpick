@@ -1,0 +1,36 @@
+@mixin text-xs {
+  font-family: var(--text-regular), sans-serif;
+  font-size: 0.8667rem;
+}
+
+@mixin text-sm {
+  font-family: var(--text-regular), sans-serif;
+  font-size: 1rem;
+}
+
+@mixin text-md {
+  font-family: var(--text-regular), sans-serif;
+  font-size: 1.133rem;
+}
+
+@mixin text-lg {
+  font-family: var(--text-regular), sans-serif;
+  font-size: 1.3333rem;
+}
+
+@mixin text-xl {
+  font-family: var(--text-regular), sans-serif;
+  font-size: 1.6rem;
+}
+
+@mixin text-medium {
+  font-family: var(--text-medium), sans-serif;
+}
+
+@mixin text-semibold {
+  font-family: var(--text-semibold), sans-serif;
+}
+
+@mixin text-bold {
+  font-family: var(--text-bold), sans-serif;
+}

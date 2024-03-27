@@ -1,0 +1,158 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ProductRow > should match snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="_container_1d0052 _container_f0394b"
+        data-testid="product-row"
+      >
+        <div
+          class="_content_f0394b"
+        >
+          <div
+            class="_image_f0394b"
+          >
+            <img
+              alt="Test"
+              height="150"
+              src="./test.png"
+              width="150"
+            />
+          </div>
+          <div
+            class="_information_f0394b"
+          >
+            <p
+              class="_name_f0394b"
+            >
+              Test
+            </p>
+            <p
+              class="_price_f0394b"
+            >
+              1 200 ₽
+            </p>
+          </div>
+        </div>
+        <div
+          class="_row_f0394b"
+        >
+          <button>
+            Bottom slot
+          </button>
+        </div>
+        <div
+          class="_actions_f0394b"
+        >
+          <button>
+            Actions
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="_container_1d0052 _container_f0394b"
+      data-testid="product-row"
+    >
+      <div
+        class="_content_f0394b"
+      >
+        <div
+          class="_image_f0394b"
+        >
+          <img
+            alt="Test"
+            height="150"
+            src="./test.png"
+            width="150"
+          />
+        </div>
+        <div
+          class="_information_f0394b"
+        >
+          <p
+            class="_name_f0394b"
+          >
+            Test
+          </p>
+          <p
+            class="_price_f0394b"
+          >
+            1 200 ₽
+          </p>
+        </div>
+      </div>
+      <div
+        class="_row_f0394b"
+      >
+        <button>
+          Bottom slot
+        </button>
+      </div>
+      <div
+        class="_actions_f0394b"
+      >
+        <button>
+          Actions
+        </button>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -1,0 +1,595 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`CartPage > CartPage with empty cart > should match snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="_container_aa19f7"
+      >
+        <h1
+          class="_title_aa19f7"
+        >
+          Корзина
+        </h1>
+        <div
+          class="_content_aa19f7"
+        >
+          <div
+            class="_items_aa19f7"
+          >
+            <div
+              class="_container_057271"
+            >
+              <p
+                class="_empty_057271"
+                data-testid="cart-empty"
+              >
+                В корзине ничего нет
+              </p>
+            </div>
+          </div>
+          <div
+            class="_checkout_aa19f7"
+          >
+            <div
+              class="_container_1d0052 _container_03b5b0"
+            >
+              <div
+                class="_information_03b5b0"
+              >
+                <span
+                  class="_text_03b5b0"
+                >
+                  Итого
+                </span>
+                <span
+                  class="_text_03b5b0"
+                  data-testid="checkout-total-price"
+                >
+                  ₽ 
+                  0
+                </span>
+              </div>
+              <div
+                class="_actions_03b5b0"
+              >
+                <button
+                  class="_button_0302f3 _button_aa19f7 _primary_0302f3 _lg_0302f3"
+                  data-testid="checkout-button"
+                  disabled=""
+                  type="button"
+                >
+                  Перейти к оформлению
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="_container_aa19f7"
+    >
+      <h1
+        class="_title_aa19f7"
+      >
+        Корзина
+      </h1>
+      <div
+        class="_content_aa19f7"
+      >
+        <div
+          class="_items_aa19f7"
+        >
+          <div
+            class="_container_057271"
+          >
+            <p
+              class="_empty_057271"
+              data-testid="cart-empty"
+            >
+              В корзине ничего нет
+            </p>
+          </div>
+        </div>
+        <div
+          class="_checkout_aa19f7"
+        >
+          <div
+            class="_container_1d0052 _container_03b5b0"
+          >
+            <div
+              class="_information_03b5b0"
+            >
+              <span
+                class="_text_03b5b0"
+              >
+                Итого
+              </span>
+              <span
+                class="_text_03b5b0"
+                data-testid="checkout-total-price"
+              >
+                ₽ 
+                0
+              </span>
+            </div>
+            <div
+              class="_actions_03b5b0"
+            >
+              <button
+                class="_button_0302f3 _button_aa19f7 _primary_0302f3 _lg_0302f3"
+                data-testid="checkout-button"
+                disabled=""
+                type="button"
+              >
+                Перейти к оформлению
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`CartPage > if there are products in the cart list > should match snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="_container_aa19f7"
+      >
+        <h1
+          class="_title_aa19f7"
+        >
+          Корзина
+        </h1>
+        <div
+          class="_content_aa19f7"
+        >
+          <div
+            class="_items_aa19f7"
+          >
+            <div
+              class="_container_057271"
+            >
+              <div
+                class="_container_1d0052 _container_f0394b"
+                data-testid="product-row"
+              >
+                <div
+                  class="_content_f0394b"
+                >
+                  <div
+                    class="_image_f0394b"
+                  >
+                    <img
+                      alt="Product"
+                      height="150"
+                      src="/images/catalog/headphone-1.png"
+                      width="150"
+                    />
+                  </div>
+                  <div
+                    class="_information_f0394b"
+                  >
+                    <p
+                      class="_name_f0394b"
+                    >
+                      Product
+                    </p>
+                    <p
+                      class="_price_f0394b"
+                    >
+                      1 200 ₽
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="_row_f0394b"
+                >
+                  <div
+                    class="_container_daf3ee"
+                  >
+                    <div
+                      class="_container_31df47"
+                    >
+                      <button
+                        aria-label="Уменьшение счетчика"
+                        class="_button_0302f3 _button_31df47 _secondary_0302f3 _sm_0302f3 _icon_0302f3"
+                        data-testid="counter-decrement"
+                        title="Уменьшить"
+                        type="button"
+                      >
+                        <svg
+                          class="icon icon-minus-filled filled"
+                          data-testid="icon"
+                          height="16"
+                          width="16"
+                        >
+                          <use
+                            xlink:href="/images/icons.svg#minus-filled"
+                          />
+                        </svg>
+                      </button>
+                      <span
+                        class="_counter_31df47"
+                        data-testid="counter-count"
+                      >
+                        2
+                      </span>
+                      <button
+                        aria-label="Увеличение счетчика"
+                        class="_button_0302f3 _button_31df47 _secondary_0302f3 _sm_0302f3 _icon_0302f3"
+                        data-testid="counter-increment"
+                        title="Увеличить"
+                        type="button"
+                      >
+                        <svg
+                          class="icon icon-plus-filled filled"
+                          data-testid="icon"
+                          height="16"
+                          width="16"
+                        >
+                          <use
+                            xlink:href="/images/icons.svg#plus-filled"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                    <p
+                      class="_total_daf3ee"
+                      data-testid="cart-counter-total"
+                    >
+                      2 400 ₽
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="_actions_f0394b"
+                >
+                  <button
+                    aria-label="Удалить товар из корзины"
+                    class="_button_0302f3 _button_4a1003 _link-primary_0302f3 _md_0302f3 _icon_0302f3"
+                    data-testid="button-delete-from-cart"
+                    title="Удалить"
+                    type="button"
+                  >
+                    <svg
+                      class="icon icon-delete-filled _icon_4a1003 filled"
+                      data-testid="icon"
+                      height="20"
+                      width="20"
+                    >
+                      <use
+                        xlink:href="/images/icons.svg#delete-filled"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="_checkout_aa19f7"
+          >
+            <div
+              class="_container_1d0052 _container_03b5b0"
+            >
+              <div
+                class="_information_03b5b0"
+              >
+                <span
+                  class="_text_03b5b0"
+                >
+                  Итого
+                </span>
+                <span
+                  class="_text_03b5b0"
+                  data-testid="checkout-total-price"
+                >
+                  ₽ 
+                  2 400
+                </span>
+              </div>
+              <div
+                class="_actions_03b5b0"
+              >
+                <button
+                  class="_button_0302f3 _button_aa19f7 _primary_0302f3 _lg_0302f3"
+                  data-testid="checkout-button"
+                  type="button"
+                >
+                  Перейти к оформлению
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="_container_aa19f7"
+    >
+      <h1
+        class="_title_aa19f7"
+      >
+        Корзина
+      </h1>
+      <div
+        class="_content_aa19f7"
+      >
+        <div
+          class="_items_aa19f7"
+        >
+          <div
+            class="_container_057271"
+          >
+            <div
+              class="_container_1d0052 _container_f0394b"
+              data-testid="product-row"
+            >
+              <div
+                class="_content_f0394b"
+              >
+                <div
+                  class="_image_f0394b"
+                >
+                  <img
+                    alt="Product"
+                    height="150"
+                    src="/images/catalog/headphone-1.png"
+                    width="150"
+                  />
+                </div>
+                <div
+                  class="_information_f0394b"
+                >
+                  <p
+                    class="_name_f0394b"
+                  >
+                    Product
+                  </p>
+                  <p
+                    class="_price_f0394b"
+                  >
+                    1 200 ₽
+                  </p>
+                </div>
+              </div>
+              <div
+                class="_row_f0394b"
+              >
+                <div
+                  class="_container_daf3ee"
+                >
+                  <div
+                    class="_container_31df47"
+                  >
+                    <button
+                      aria-label="Уменьшение счетчика"
+                      class="_button_0302f3 _button_31df47 _secondary_0302f3 _sm_0302f3 _icon_0302f3"
+                      data-testid="counter-decrement"
+                      title="Уменьшить"
+                      type="button"
+                    >
+                      <svg
+                        class="icon icon-minus-filled filled"
+                        data-testid="icon"
+                        height="16"
+                        width="16"
+                      >
+                        <use
+                          xlink:href="/images/icons.svg#minus-filled"
+                        />
+                      </svg>
+                    </button>
+                    <span
+                      class="_counter_31df47"
+                      data-testid="counter-count"
+                    >
+                      2
+                    </span>
+                    <button
+                      aria-label="Увеличение счетчика"
+                      class="_button_0302f3 _button_31df47 _secondary_0302f3 _sm_0302f3 _icon_0302f3"
+                      data-testid="counter-increment"
+                      title="Увеличить"
+                      type="button"
+                    >
+                      <svg
+                        class="icon icon-plus-filled filled"
+                        data-testid="icon"
+                        height="16"
+                        width="16"
+                      >
+                        <use
+                          xlink:href="/images/icons.svg#plus-filled"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                  <p
+                    class="_total_daf3ee"
+                    data-testid="cart-counter-total"
+                  >
+                    2 400 ₽
+                  </p>
+                </div>
+              </div>
+              <div
+                class="_actions_f0394b"
+              >
+                <button
+                  aria-label="Удалить товар из корзины"
+                  class="_button_0302f3 _button_4a1003 _link-primary_0302f3 _md_0302f3 _icon_0302f3"
+                  data-testid="button-delete-from-cart"
+                  title="Удалить"
+                  type="button"
+                >
+                  <svg
+                    class="icon icon-delete-filled _icon_4a1003 filled"
+                    data-testid="icon"
+                    height="20"
+                    width="20"
+                  >
+                    <use
+                      xlink:href="/images/icons.svg#delete-filled"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="_checkout_aa19f7"
+        >
+          <div
+            class="_container_1d0052 _container_03b5b0"
+          >
+            <div
+              class="_information_03b5b0"
+            >
+              <span
+                class="_text_03b5b0"
+              >
+                Итого
+              </span>
+              <span
+                class="_text_03b5b0"
+                data-testid="checkout-total-price"
+              >
+                ₽ 
+                2 400
+              </span>
+            </div>
+            <div
+              class="_actions_03b5b0"
+            >
+              <button
+                class="_button_0302f3 _button_aa19f7 _primary_0302f3 _lg_0302f3"
+                data-testid="checkout-button"
+                type="button"
+              >
+                Перейти к оформлению
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

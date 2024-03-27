@@ -1,0 +1,218 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`FooterSocial > should match snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <nav
+        class="_container_ca994d _horizontal_ca994d"
+      >
+        <ul
+          class="_list_ca994d"
+        >
+          <li
+            class="_item_f235a0"
+          >
+            <a
+              aria-label="VK"
+              class="_link_f235a0"
+              href="https://vk.com/"
+              rel="noopener noreferrer"
+              target="_blank"
+              title="VK"
+            >
+              <svg
+                class="icon icon-vk-filled filled"
+                data-testid="icon"
+                height="30"
+                width="30"
+              >
+                <use
+                  xlink:href="/images/icons.svg#vk-filled"
+                />
+              </svg>
+            </a>
+          </li>
+          <li
+            class="_item_f235a0"
+          >
+            <a
+              aria-label="Telegram"
+              class="_link_f235a0"
+              href="https://telegram.org/"
+              rel="noopener noreferrer"
+              target="_blank"
+              title="Telegram"
+            >
+              <svg
+                class="icon icon-telegram-filled filled"
+                data-testid="icon"
+                height="30"
+                width="30"
+              >
+                <use
+                  xlink:href="/images/icons.svg#telegram-filled"
+                />
+              </svg>
+            </a>
+          </li>
+          <li
+            class="_item_f235a0"
+          >
+            <a
+              aria-label="Whatsapp"
+              class="_link_f235a0"
+              href="https://www.whatsapp.com/"
+              rel="noopener noreferrer"
+              target="_blank"
+              title="Whatsapp"
+            >
+              <svg
+                class="icon icon-whatsapp-filled filled"
+                data-testid="icon"
+                height="30"
+                width="30"
+              >
+                <use
+                  xlink:href="/images/icons.svg#whatsapp-filled"
+                />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </body>,
+  "container": <div>
+    <nav
+      class="_container_ca994d _horizontal_ca994d"
+    >
+      <ul
+        class="_list_ca994d"
+      >
+        <li
+          class="_item_f235a0"
+        >
+          <a
+            aria-label="VK"
+            class="_link_f235a0"
+            href="https://vk.com/"
+            rel="noopener noreferrer"
+            target="_blank"
+            title="VK"
+          >
+            <svg
+              class="icon icon-vk-filled filled"
+              data-testid="icon"
+              height="30"
+              width="30"
+            >
+              <use
+                xlink:href="/images/icons.svg#vk-filled"
+              />
+            </svg>
+          </a>
+        </li>
+        <li
+          class="_item_f235a0"
+        >
+          <a
+            aria-label="Telegram"
+            class="_link_f235a0"
+            href="https://telegram.org/"
+            rel="noopener noreferrer"
+            target="_blank"
+            title="Telegram"
+          >
+            <svg
+              class="icon icon-telegram-filled filled"
+              data-testid="icon"
+              height="30"
+              width="30"
+            >
+              <use
+                xlink:href="/images/icons.svg#telegram-filled"
+              />
+            </svg>
+          </a>
+        </li>
+        <li
+          class="_item_f235a0"
+        >
+          <a
+            aria-label="Whatsapp"
+            class="_link_f235a0"
+            href="https://www.whatsapp.com/"
+            rel="noopener noreferrer"
+            target="_blank"
+            title="Whatsapp"
+          >
+            <svg
+              class="icon icon-whatsapp-filled filled"
+              data-testid="icon"
+              height="30"
+              width="30"
+            >
+              <use
+                xlink:href="/images/icons.svg#whatsapp-filled"
+              />
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

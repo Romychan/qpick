@@ -1,0 +1,224 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Header > should match snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <header
+        class="_container_f032e3"
+      >
+        <div
+          class="container"
+        >
+          <div
+            class="_inner_f032e3"
+          >
+            <a
+              href="/"
+            >
+              <div
+                class="_container_4cc90f"
+                data-testid="logo"
+              >
+                <p
+                  class="_logo_4cc90f"
+                >
+                  Qpick
+                </p>
+              </div>
+            </a>
+            <div
+              class="_items_f032e3"
+            >
+              <a
+                aria-label="Перейти на страницу избранным товарам"
+                class="_link_f032e3"
+                data-testid="header-favorite"
+                href="/favorite"
+                title="Избранное"
+              >
+                <div
+                  class="_container_34e0b4"
+                >
+                  <svg
+                    class="icon icon-heart-filled _icon_f032e3 filled"
+                    data-testid="icon"
+                    height="24"
+                    width="24"
+                  >
+                    <use
+                      xlink:href="/images/icons.svg#heart-filled"
+                    />
+                  </svg>
+                </div>
+              </a>
+              <a
+                aria-label="Перейти на страницу корины товаров"
+                class="_link_f032e3"
+                data-testid="header-cart"
+                href="/cart"
+                title="Корзина"
+              >
+                <div
+                  class="_container_34e0b4"
+                >
+                  <svg
+                    class="icon icon-cart-filled _icon_f032e3 filled"
+                    data-testid="icon"
+                    height="24"
+                    width="24"
+                  >
+                    <use
+                      xlink:href="/images/icons.svg#cart-filled"
+                    />
+                  </svg>
+                  <span
+                    class="_badge_34e0b4 _yellow_34e0b4"
+                    data-testid="badge-count"
+                  >
+                    2
+                  </span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+  </body>,
+  "container": <div>
+    <header
+      class="_container_f032e3"
+    >
+      <div
+        class="container"
+      >
+        <div
+          class="_inner_f032e3"
+        >
+          <a
+            href="/"
+          >
+            <div
+              class="_container_4cc90f"
+              data-testid="logo"
+            >
+              <p
+                class="_logo_4cc90f"
+              >
+                Qpick
+              </p>
+            </div>
+          </a>
+          <div
+            class="_items_f032e3"
+          >
+            <a
+              aria-label="Перейти на страницу избранным товарам"
+              class="_link_f032e3"
+              data-testid="header-favorite"
+              href="/favorite"
+              title="Избранное"
+            >
+              <div
+                class="_container_34e0b4"
+              >
+                <svg
+                  class="icon icon-heart-filled _icon_f032e3 filled"
+                  data-testid="icon"
+                  height="24"
+                  width="24"
+                >
+                  <use
+                    xlink:href="/images/icons.svg#heart-filled"
+                  />
+                </svg>
+              </div>
+            </a>
+            <a
+              aria-label="Перейти на страницу корины товаров"
+              class="_link_f032e3"
+              data-testid="header-cart"
+              href="/cart"
+              title="Корзина"
+            >
+              <div
+                class="_container_34e0b4"
+              >
+                <svg
+                  class="icon icon-cart-filled _icon_f032e3 filled"
+                  data-testid="icon"
+                  height="24"
+                  width="24"
+                >
+                  <use
+                    xlink:href="/images/icons.svg#cart-filled"
+                  />
+                </svg>
+                <span
+                  class="_badge_34e0b4 _yellow_34e0b4"
+                  data-testid="badge-count"
+                >
+                  2
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

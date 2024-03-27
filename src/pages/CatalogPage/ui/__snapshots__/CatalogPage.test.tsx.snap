@@ -1,0 +1,1696 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`CatalogPage > should match snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="_container_f7114e"
+      >
+        <div
+          class="_container_437bb5"
+        >
+          <h2
+            class="_title_437bb5"
+          >
+            Наушники
+          </h2>
+          <div
+            class="_items_437bb5"
+          >
+            <div
+              class="_container_1d0052 _container_01e065"
+              data-testid="product-card"
+            >
+              <a
+                aria-label="Быстрый просмотр товара"
+                class="_link_01e065"
+                href="/overview/1"
+                title="Быстрый просмотр"
+              >
+                <svg
+                  class="icon icon-eye"
+                  data-testid="icon"
+                  height="22"
+                  width="22"
+                >
+                  <use
+                    xlink:href="/images/icons.svg#eye"
+                  />
+                </svg>
+              </a>
+              <div
+                class="_image_01e065"
+              >
+                <img
+                  alt="Apple BYZ S852I"
+                  height="238"
+                  src="/images/catalog/headphone-1.png"
+                  width="220"
+                />
+              </div>
+              <div
+                class="_information_01e065"
+              >
+                <a
+                  class="_name_01e065"
+                  href="/overview/1"
+                >
+                  Apple BYZ S852I
+                </a>
+                <div
+                  class="_container_5a3e99 _vertical_5a3e99 _md_5a3e99"
+                  data-testid="price"
+                >
+                  <span
+                    class="_price_5a3e99"
+                  >
+                    2927
+                     
+                    ₽
+                  </span>
+                  <span
+                    class="_old_5a3e99"
+                  >
+                    3527
+                     
+                    ₽
+                  </span>
+                </div>
+              </div>
+              <div
+                class="_actions_01e065"
+              >
+                <div
+                  class="_container_861903"
+                  data-testid="rating"
+                >
+                  <svg
+                    class="icon icon-star-filled _icon_861903 filled"
+                    data-testid="icon"
+                    height="24"
+                    width="24"
+                  >
+                    <use
+                      xlink:href="/images/icons.svg#star-filled"
+                    />
+                  </svg>
+                  <p
+                    class="_text_861903"
+                  >
+                    4.7
+                  </p>
+                </div>
+                <button
+                  class="_button_0302f3 _button_9e4ee0 _link-primary_0302f3 _md_0302f3"
+                  data-testid="button-add-to-cart"
+                  type="button"
+                >
+                  Купить
+                </button>
+              </div>
+            </div>
+            <div
+              class="_container_1d0052 _container_01e065"
+              data-testid="product-card"
+            >
+              <a
+                aria-label="Быстрый просмотр товара"
+                class="_link_01e065"
+                href="/overview/2"
+                title="Быстрый просмотр"
+              >
+                <svg
+                  class="icon icon-eye"
+                  data-testid="icon"
+                  height="22"
+                  width="22"
+                >
+                  <use
+                    xlink:href="/images/icons.svg#eye"
+                  />
+                </svg>
+              </a>
+              <div
+                class="_image_01e065"
+              >
+                <img
+                  alt="Apple AirPods Pro 3"
+                  height="238"
+                  src="/images/catalog/headphone-2.png"
+                  width="220"
+                />
+              </div>
+              <div
+                class="_information_01e065"
+              >
+                <a
+                  class="_name_01e065"
+                  href="/overview/2"
+                >
+                  Apple AirPods Pro 3
+                </a>
+                <div
+                  class="_container_5a3e99 _vertical_5a3e99 _md_5a3e99"
+                  data-testid="price"
+                >
+                  <span
+                    class="_price_5a3e99"
+                  >
+                    200
+                     
+                    ₽
+                  </span>
+                </div>
+              </div>
+              <div
+                class="_actions_01e065"
+              >
+                <div
+                  class="_container_861903"
+                  data-testid="rating"
+                >
+                  <svg
+                    class="icon icon-star-filled _icon_861903 filled"
+                    data-testid="icon"
+                    height="24"
+                    width="24"
+                  >
+                    <use
+                      xlink:href="/images/icons.svg#star-filled"
+                    />
+                  </svg>
+                  <p
+                    class="_text_861903"
+                  >
+                    4.5
+                  </p>
+                </div>
+                <button
+                  class="_button_0302f3 _button_9e4ee0 _link-primary_0302f3 _md_0302f3"
+                  data-testid="button-add-to-cart"
+                  type="button"
+                >
+                  Купить
+                </button>
+              </div>
+            </div>
+            <div
+              class="_container_1d0052 _container_01e065"
+              data-testid="product-card"
+            >
+              <a
+                aria-label="Быстрый просмотр товара"
+                class="_link_01e065"
+                href="/overview/3"
+                title="Быстрый просмотр"
+              >
+                <svg
+                  class="icon icon-eye"
+                  data-testid="icon"
+                  height="22"
+                  width="22"
+                >
+                  <use
+                    xlink:href="/images/icons.svg#eye"
+                  />
+                </svg>
+              </a>
+              <div
+                class="_image_01e065"
+              >
+                <img
+                  alt="Apple EarPods"
+                  height="238"
+                  src="/images/catalog/headphone-3.png"
+                  width="220"
+                />
+              </div>
+              <div
+                class="_information_01e065"
+              >
+                <a
+                  class="_name_01e065"
+                  href="/overview/3"
+                >
+                  Apple EarPods
+                </a>
+                <div
+                  class="_container_5a3e99 _vertical_5a3e99 _md_5a3e99"
+                  data-testid="price"
+                >
+                  <span
+                    class="_price_5a3e99"
+                  >
+                    2327
+                     
+                    ₽
+                  </span>
+                </div>
+              </div>
+              <div
+                class="_actions_01e065"
+              >
+                <div
+                  class="_container_861903"
+                  data-testid="rating"
+                >
+                  <svg
+                    class="icon icon-star-filled _icon_861903 filled"
+                    data-testid="icon"
+                    height="24"
+                    width="24"
+                  >
+                    <use
+                      xlink:href="/images/icons.svg#star-filled"
+                    />
+                  </svg>
+                  <p
+                    class="_text_861903"
+                  >
+                    4.5
+                  </p>
+                </div>
+                <button
+                  class="_button_0302f3 _button_9e4ee0 _link-primary_0302f3 _md_0302f3"
+                  data-testid="button-add-to-cart"
+                  type="button"
+                >
+                  Купить
+                </button>
+              </div>
+            </div>
+            <div
+              class="_container_1d0052 _container_01e065"
+              data-testid="product-card"
+            >
+              <a
+                aria-label="Быстрый просмотр товара"
+                class="_link_01e065"
+                href="/overview/4"
+                title="Быстрый просмотр"
+              >
+                <svg
+                  class="icon icon-eye"
+                  data-testid="icon"
+                  height="22"
+                  width="22"
+                >
+                  <use
+                    xlink:href="/images/icons.svg#eye"
+                  />
+                </svg>
+              </a>
+              <div
+                class="_image_01e065"
+              >
+                <img
+                  alt="Apple BYZ S123I"
+                  height="238"
+                  src="/images/catalog/headphone-1.png"
+                  width="220"
+                />
+              </div>
+              <div
+                class="_information_01e065"
+              >
+                <a
+                  class="_name_01e065"
+                  href="/overview/4"
+                >
+                  Apple BYZ S123I
+                </a>
+                <div
+                  class="_container_5a3e99 _vertical_5a3e99 _md_5a3e99"
+                  data-testid="price"
+                >
+                  <span
+                    class="_price_5a3e99"
+                  >
+                    1500
+                     
+                    ₽
+                  </span>
+                  <span
+                    class="_old_5a3e99"
+                  >
+                    1950
+                     
+                    ₽
+                  </span>
+                </div>
+              </div>
+              <div
+                class="_actions_01e065"
+              >
+                <div
+                  class="_container_861903"
+                  data-testid="rating"
+                >
+                  <svg
+                    class="icon icon-star-filled _icon_861903 filled"
+                    data-testid="icon"
+                    height="24"
+                    width="24"
+                  >
+                    <use
+                      xlink:href="/images/icons.svg#star-filled"
+                    />
+                  </svg>
+                  <p
+                    class="_text_861903"
+                  >
+                    4.7
+                  </p>
+                </div>
+                <button
+                  class="_button_0302f3 _button_9e4ee0 _link-primary_0302f3 _md_0302f3"
+                  data-testid="button-add-to-cart"
+                  type="button"
+                >
+                  Купить
+                </button>
+              </div>
+            </div>
+            <div
+              class="_container_1d0052 _container_01e065"
+              data-testid="product-card"
+            >
+              <a
+                aria-label="Быстрый просмотр товара"
+                class="_link_01e065"
+                href="/overview/5"
+                title="Быстрый просмотр"
+              >
+                <svg
+                  class="icon icon-eye"
+                  data-testid="icon"
+                  height="22"
+                  width="22"
+                >
+                  <use
+                    xlink:href="/images/icons.svg#eye"
+                  />
+                </svg>
+              </a>
+              <div
+                class="_image_01e065"
+              >
+                <img
+                  alt="Apple AirPods Pro 2"
+                  height="238"
+                  src="/images/catalog/headphone-2.png"
+                  width="220"
+                />
+              </div>
+              <div
+                class="_information_01e065"
+              >
+                <a
+                  class="_name_01e065"
+                  href="/overview/5"
+                >
+                  Apple AirPods Pro 2
+                </a>
+                <div
+                  class="_container_5a3e99 _vertical_5a3e99 _md_5a3e99"
+                  data-testid="price"
+                >
+                  <span
+                    class="_price_5a3e99"
+                  >
+                    200
+                     
+                    ₽
+                  </span>
+                </div>
+              </div>
+              <div
+                class="_actions_01e065"
+              >
+                <div
+                  class="_container_861903"
+                  data-testid="rating"
+                >
+                  <svg
+                    class="icon icon-star-filled _icon_861903 filled"
+                    data-testid="icon"
+                    height="24"
+                    width="24"
+                  >
+                    <use
+                      xlink:href="/images/icons.svg#star-filled"
+                    />
+                  </svg>
+                  <p
+                    class="_text_861903"
+                  >
+                    4.5
+                  </p>
+                </div>
+                <button
+                  class="_button_0302f3 _button_9e4ee0 _link-primary_0302f3 _md_0302f3"
+                  data-testid="button-add-to-cart"
+                  type="button"
+                >
+                  Купить
+                </button>
+              </div>
+            </div>
+            <div
+              class="_container_1d0052 _container_01e065"
+              data-testid="product-card"
+            >
+              <a
+                aria-label="Быстрый просмотр товара"
+                class="_link_01e065"
+                href="/overview/6"
+                title="Быстрый просмотр"
+              >
+                <svg
+                  class="icon icon-eye"
+                  data-testid="icon"
+                  height="22"
+                  width="22"
+                >
+                  <use
+                    xlink:href="/images/icons.svg#eye"
+                  />
+                </svg>
+              </a>
+              <div
+                class="_image_01e065"
+              >
+                <img
+                  alt="Apple EarPods 2"
+                  height="238"
+                  src="/images/catalog/headphone-3.png"
+                  width="220"
+                />
+              </div>
+              <div
+                class="_information_01e065"
+              >
+                <a
+                  class="_name_01e065"
+                  href="/overview/6"
+                >
+                  Apple EarPods 2
+                </a>
+                <div
+                  class="_container_5a3e99 _vertical_5a3e99 _md_5a3e99"
+                  data-testid="price"
+                >
+                  <span
+                    class="_price_5a3e99"
+                  >
+                    1200
+                     
+                    ₽
+                  </span>
+                  <span
+                    class="_old_5a3e99"
+                  >
+                    2000
+                     
+                    ₽
+                  </span>
+                </div>
+              </div>
+              <div
+                class="_actions_01e065"
+              >
+                <div
+                  class="_container_861903"
+                  data-testid="rating"
+                >
+                  <svg
+                    class="icon icon-star-filled _icon_861903 filled"
+                    data-testid="icon"
+                    height="24"
+                    width="24"
+                  >
+                    <use
+                      xlink:href="/images/icons.svg#star-filled"
+                    />
+                  </svg>
+                  <p
+                    class="_text_861903"
+                  >
+                    3.8
+                  </p>
+                </div>
+                <button
+                  class="_button_0302f3 _button_9e4ee0 _link-primary_0302f3 _md_0302f3"
+                  data-testid="button-add-to-cart"
+                  type="button"
+                >
+                  Купить
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="_container_437bb5"
+        >
+          <h2
+            class="_title_437bb5"
+          >
+            Беспроводные наушники
+          </h2>
+          <div
+            class="_items_437bb5"
+          >
+            <div
+              class="_container_1d0052 _container_01e065"
+              data-testid="product-card"
+            >
+              <a
+                aria-label="Быстрый просмотр товара"
+                class="_link_01e065"
+                href="/overview/7"
+                title="Быстрый просмотр"
+              >
+                <svg
+                  class="icon icon-eye"
+                  data-testid="icon"
+                  height="22"
+                  width="22"
+                >
+                  <use
+                    xlink:href="/images/icons.svg#eye"
+                  />
+                </svg>
+              </a>
+              <div
+                class="_image_01e065"
+              >
+                <img
+                  alt="Apple AirPods"
+                  height="238"
+                  src="/images/catalog/headphone-4.png"
+                  width="220"
+                />
+              </div>
+              <div
+                class="_information_01e065"
+              >
+                <a
+                  class="_name_01e065"
+                  href="/overview/7"
+                >
+                  Apple AirPods
+                </a>
+                <div
+                  class="_container_5a3e99 _vertical_5a3e99 _md_5a3e99"
+                  data-testid="price"
+                >
+                  <span
+                    class="_price_5a3e99"
+                  >
+                    9527
+                     
+                    ₽
+                  </span>
+                </div>
+              </div>
+              <div
+                class="_actions_01e065"
+              >
+                <div
+                  class="_container_861903"
+                  data-testid="rating"
+                >
+                  <svg
+                    class="icon icon-star-filled _icon_861903 filled"
+                    data-testid="icon"
+                    height="24"
+                    width="24"
+                  >
+                    <use
+                      xlink:href="/images/icons.svg#star-filled"
+                    />
+                  </svg>
+                  <p
+                    class="_text_861903"
+                  >
+                    4.7
+                  </p>
+                </div>
+                <button
+                  class="_button_0302f3 _button_9e4ee0 _link-primary_0302f3 _md_0302f3"
+                  data-testid="button-add-to-cart"
+                  type="button"
+                >
+                  Купить
+                </button>
+              </div>
+            </div>
+            <div
+              class="_container_1d0052 _container_01e065"
+              data-testid="product-card"
+            >
+              <a
+                aria-label="Быстрый просмотр товара"
+                class="_link_01e065"
+                href="/overview/8"
+                title="Быстрый просмотр"
+              >
+                <svg
+                  class="icon icon-eye"
+                  data-testid="icon"
+                  height="22"
+                  width="22"
+                >
+                  <use
+                    xlink:href="/images/icons.svg#eye"
+                  />
+                </svg>
+              </a>
+              <div
+                class="_image_01e065"
+              >
+                <img
+                  alt="GERLAX GH-04"
+                  height="238"
+                  src="/images/catalog/headphone-5.png"
+                  width="220"
+                />
+              </div>
+              <div
+                class="_information_01e065"
+              >
+                <a
+                  class="_name_01e065"
+                  href="/overview/8"
+                >
+                  GERLAX GH-04
+                </a>
+                <div
+                  class="_container_5a3e99 _vertical_5a3e99 _md_5a3e99"
+                  data-testid="price"
+                >
+                  <span
+                    class="_price_5a3e99"
+                  >
+                    6527
+                     
+                    ₽
+                  </span>
+                </div>
+              </div>
+              <div
+                class="_actions_01e065"
+              >
+                <div
+                  class="_container_861903"
+                  data-testid="rating"
+                >
+                  <svg
+                    class="icon icon-star-filled _icon_861903 filled"
+                    data-testid="icon"
+                    height="24"
+                    width="24"
+                  >
+                    <use
+                      xlink:href="/images/icons.svg#star-filled"
+                    />
+                  </svg>
+                  <p
+                    class="_text_861903"
+                  >
+                    4.7
+                  </p>
+                </div>
+                <button
+                  class="_button_0302f3 _button_9e4ee0 _link-primary_0302f3 _md_0302f3"
+                  data-testid="button-add-to-cart"
+                  type="button"
+                >
+                  Купить
+                </button>
+              </div>
+            </div>
+            <div
+              class="_container_1d0052 _container_01e065"
+              data-testid="product-card"
+            >
+              <a
+                aria-label="Быстрый просмотр товара"
+                class="_link_01e065"
+                href="/overview/9"
+                title="Быстрый просмотр"
+              >
+                <svg
+                  class="icon icon-eye"
+                  data-testid="icon"
+                  height="22"
+                  width="22"
+                >
+                  <use
+                    xlink:href="/images/icons.svg#eye"
+                  />
+                </svg>
+              </a>
+              <div
+                class="_image_01e065"
+              >
+                <img
+                  alt="BOROFONE BO4"
+                  height="238"
+                  src="/images/catalog/headphone-6.png"
+                  width="220"
+                />
+              </div>
+              <div
+                class="_information_01e065"
+              >
+                <a
+                  class="_name_01e065"
+                  href="/overview/9"
+                >
+                  BOROFONE BO4
+                </a>
+                <div
+                  class="_container_5a3e99 _vertical_5a3e99 _md_5a3e99"
+                  data-testid="price"
+                >
+                  <span
+                    class="_price_5a3e99"
+                  >
+                    7527
+                     
+                    ₽
+                  </span>
+                </div>
+              </div>
+              <div
+                class="_actions_01e065"
+              >
+                <div
+                  class="_container_861903"
+                  data-testid="rating"
+                >
+                  <svg
+                    class="icon icon-star-filled _icon_861903 filled"
+                    data-testid="icon"
+                    height="24"
+                    width="24"
+                  >
+                    <use
+                      xlink:href="/images/icons.svg#star-filled"
+                    />
+                  </svg>
+                  <p
+                    class="_text_861903"
+                  >
+                    4.7
+                  </p>
+                </div>
+                <button
+                  class="_button_0302f3 _button_9e4ee0 _link-primary_0302f3 _md_0302f3"
+                  data-testid="button-add-to-cart"
+                  type="button"
+                >
+                  Купить
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="_container_f7114e"
+    >
+      <div
+        class="_container_437bb5"
+      >
+        <h2
+          class="_title_437bb5"
+        >
+          Наушники
+        </h2>
+        <div
+          class="_items_437bb5"
+        >
+          <div
+            class="_container_1d0052 _container_01e065"
+            data-testid="product-card"
+          >
+            <a
+              aria-label="Быстрый просмотр товара"
+              class="_link_01e065"
+              href="/overview/1"
+              title="Быстрый просмотр"
+            >
+              <svg
+                class="icon icon-eye"
+                data-testid="icon"
+                height="22"
+                width="22"
+              >
+                <use
+                  xlink:href="/images/icons.svg#eye"
+                />
+              </svg>
+            </a>
+            <div
+              class="_image_01e065"
+            >
+              <img
+                alt="Apple BYZ S852I"
+                height="238"
+                src="/images/catalog/headphone-1.png"
+                width="220"
+              />
+            </div>
+            <div
+              class="_information_01e065"
+            >
+              <a
+                class="_name_01e065"
+                href="/overview/1"
+              >
+                Apple BYZ S852I
+              </a>
+              <div
+                class="_container_5a3e99 _vertical_5a3e99 _md_5a3e99"
+                data-testid="price"
+              >
+                <span
+                  class="_price_5a3e99"
+                >
+                  2927
+                   
+                  ₽
+                </span>
+                <span
+                  class="_old_5a3e99"
+                >
+                  3527
+                   
+                  ₽
+                </span>
+              </div>
+            </div>
+            <div
+              class="_actions_01e065"
+            >
+              <div
+                class="_container_861903"
+                data-testid="rating"
+              >
+                <svg
+                  class="icon icon-star-filled _icon_861903 filled"
+                  data-testid="icon"
+                  height="24"
+                  width="24"
+                >
+                  <use
+                    xlink:href="/images/icons.svg#star-filled"
+                  />
+                </svg>
+                <p
+                  class="_text_861903"
+                >
+                  4.7
+                </p>
+              </div>
+              <button
+                class="_button_0302f3 _button_9e4ee0 _link-primary_0302f3 _md_0302f3"
+                data-testid="button-add-to-cart"
+                type="button"
+              >
+                Купить
+              </button>
+            </div>
+          </div>
+          <div
+            class="_container_1d0052 _container_01e065"
+            data-testid="product-card"
+          >
+            <a
+              aria-label="Быстрый просмотр товара"
+              class="_link_01e065"
+              href="/overview/2"
+              title="Быстрый просмотр"
+            >
+              <svg
+                class="icon icon-eye"
+                data-testid="icon"
+                height="22"
+                width="22"
+              >
+                <use
+                  xlink:href="/images/icons.svg#eye"
+                />
+              </svg>
+            </a>
+            <div
+              class="_image_01e065"
+            >
+              <img
+                alt="Apple AirPods Pro 3"
+                height="238"
+                src="/images/catalog/headphone-2.png"
+                width="220"
+              />
+            </div>
+            <div
+              class="_information_01e065"
+            >
+              <a
+                class="_name_01e065"
+                href="/overview/2"
+              >
+                Apple AirPods Pro 3
+              </a>
+              <div
+                class="_container_5a3e99 _vertical_5a3e99 _md_5a3e99"
+                data-testid="price"
+              >
+                <span
+                  class="_price_5a3e99"
+                >
+                  200
+                   
+                  ₽
+                </span>
+              </div>
+            </div>
+            <div
+              class="_actions_01e065"
+            >
+              <div
+                class="_container_861903"
+                data-testid="rating"
+              >
+                <svg
+                  class="icon icon-star-filled _icon_861903 filled"
+                  data-testid="icon"
+                  height="24"
+                  width="24"
+                >
+                  <use
+                    xlink:href="/images/icons.svg#star-filled"
+                  />
+                </svg>
+                <p
+                  class="_text_861903"
+                >
+                  4.5
+                </p>
+              </div>
+              <button
+                class="_button_0302f3 _button_9e4ee0 _link-primary_0302f3 _md_0302f3"
+                data-testid="button-add-to-cart"
+                type="button"
+              >
+                Купить
+              </button>
+            </div>
+          </div>
+          <div
+            class="_container_1d0052 _container_01e065"
+            data-testid="product-card"
+          >
+            <a
+              aria-label="Быстрый просмотр товара"
+              class="_link_01e065"
+              href="/overview/3"
+              title="Быстрый просмотр"
+            >
+              <svg
+                class="icon icon-eye"
+                data-testid="icon"
+                height="22"
+                width="22"
+              >
+                <use
+                  xlink:href="/images/icons.svg#eye"
+                />
+              </svg>
+            </a>
+            <div
+              class="_image_01e065"
+            >
+              <img
+                alt="Apple EarPods"
+                height="238"
+                src="/images/catalog/headphone-3.png"
+                width="220"
+              />
+            </div>
+            <div
+              class="_information_01e065"
+            >
+              <a
+                class="_name_01e065"
+                href="/overview/3"
+              >
+                Apple EarPods
+              </a>
+              <div
+                class="_container_5a3e99 _vertical_5a3e99 _md_5a3e99"
+                data-testid="price"
+              >
+                <span
+                  class="_price_5a3e99"
+                >
+                  2327
+                   
+                  ₽
+                </span>
+              </div>
+            </div>
+            <div
+              class="_actions_01e065"
+            >
+              <div
+                class="_container_861903"
+                data-testid="rating"
+              >
+                <svg
+                  class="icon icon-star-filled _icon_861903 filled"
+                  data-testid="icon"
+                  height="24"
+                  width="24"
+                >
+                  <use
+                    xlink:href="/images/icons.svg#star-filled"
+                  />
+                </svg>
+                <p
+                  class="_text_861903"
+                >
+                  4.5
+                </p>
+              </div>
+              <button
+                class="_button_0302f3 _button_9e4ee0 _link-primary_0302f3 _md_0302f3"
+                data-testid="button-add-to-cart"
+                type="button"
+              >
+                Купить
+              </button>
+            </div>
+          </div>
+          <div
+            class="_container_1d0052 _container_01e065"
+            data-testid="product-card"
+          >
+            <a
+              aria-label="Быстрый просмотр товара"
+              class="_link_01e065"
+              href="/overview/4"
+              title="Быстрый просмотр"
+            >
+              <svg
+                class="icon icon-eye"
+                data-testid="icon"
+                height="22"
+                width="22"
+              >
+                <use
+                  xlink:href="/images/icons.svg#eye"
+                />
+              </svg>
+            </a>
+            <div
+              class="_image_01e065"
+            >
+              <img
+                alt="Apple BYZ S123I"
+                height="238"
+                src="/images/catalog/headphone-1.png"
+                width="220"
+              />
+            </div>
+            <div
+              class="_information_01e065"
+            >
+              <a
+                class="_name_01e065"
+                href="/overview/4"
+              >
+                Apple BYZ S123I
+              </a>
+              <div
+                class="_container_5a3e99 _vertical_5a3e99 _md_5a3e99"
+                data-testid="price"
+              >
+                <span
+                  class="_price_5a3e99"
+                >
+                  1500
+                   
+                  ₽
+                </span>
+                <span
+                  class="_old_5a3e99"
+                >
+                  1950
+                   
+                  ₽
+                </span>
+              </div>
+            </div>
+            <div
+              class="_actions_01e065"
+            >
+              <div
+                class="_container_861903"
+                data-testid="rating"
+              >
+                <svg
+                  class="icon icon-star-filled _icon_861903 filled"
+                  data-testid="icon"
+                  height="24"
+                  width="24"
+                >
+                  <use
+                    xlink:href="/images/icons.svg#star-filled"
+                  />
+                </svg>
+                <p
+                  class="_text_861903"
+                >
+                  4.7
+                </p>
+              </div>
+              <button
+                class="_button_0302f3 _button_9e4ee0 _link-primary_0302f3 _md_0302f3"
+                data-testid="button-add-to-cart"
+                type="button"
+              >
+                Купить
+              </button>
+            </div>
+          </div>
+          <div
+            class="_container_1d0052 _container_01e065"
+            data-testid="product-card"
+          >
+            <a
+              aria-label="Быстрый просмотр товара"
+              class="_link_01e065"
+              href="/overview/5"
+              title="Быстрый просмотр"
+            >
+              <svg
+                class="icon icon-eye"
+                data-testid="icon"
+                height="22"
+                width="22"
+              >
+                <use
+                  xlink:href="/images/icons.svg#eye"
+                />
+              </svg>
+            </a>
+            <div
+              class="_image_01e065"
+            >
+              <img
+                alt="Apple AirPods Pro 2"
+                height="238"
+                src="/images/catalog/headphone-2.png"
+                width="220"
+              />
+            </div>
+            <div
+              class="_information_01e065"
+            >
+              <a
+                class="_name_01e065"
+                href="/overview/5"
+              >
+                Apple AirPods Pro 2
+              </a>
+              <div
+                class="_container_5a3e99 _vertical_5a3e99 _md_5a3e99"
+                data-testid="price"
+              >
+                <span
+                  class="_price_5a3e99"
+                >
+                  200
+                   
+                  ₽
+                </span>
+              </div>
+            </div>
+            <div
+              class="_actions_01e065"
+            >
+              <div
+                class="_container_861903"
+                data-testid="rating"
+              >
+                <svg
+                  class="icon icon-star-filled _icon_861903 filled"
+                  data-testid="icon"
+                  height="24"
+                  width="24"
+                >
+                  <use
+                    xlink:href="/images/icons.svg#star-filled"
+                  />
+                </svg>
+                <p
+                  class="_text_861903"
+                >
+                  4.5
+                </p>
+              </div>
+              <button
+                class="_button_0302f3 _button_9e4ee0 _link-primary_0302f3 _md_0302f3"
+                data-testid="button-add-to-cart"
+                type="button"
+              >
+                Купить
+              </button>
+            </div>
+          </div>
+          <div
+            class="_container_1d0052 _container_01e065"
+            data-testid="product-card"
+          >
+            <a
+              aria-label="Быстрый просмотр товара"
+              class="_link_01e065"
+              href="/overview/6"
+              title="Быстрый просмотр"
+            >
+              <svg
+                class="icon icon-eye"
+                data-testid="icon"
+                height="22"
+                width="22"
+              >
+                <use
+                  xlink:href="/images/icons.svg#eye"
+                />
+              </svg>
+            </a>
+            <div
+              class="_image_01e065"
+            >
+              <img
+                alt="Apple EarPods 2"
+                height="238"
+                src="/images/catalog/headphone-3.png"
+                width="220"
+              />
+            </div>
+            <div
+              class="_information_01e065"
+            >
+              <a
+                class="_name_01e065"
+                href="/overview/6"
+              >
+                Apple EarPods 2
+              </a>
+              <div
+                class="_container_5a3e99 _vertical_5a3e99 _md_5a3e99"
+                data-testid="price"
+              >
+                <span
+                  class="_price_5a3e99"
+                >
+                  1200
+                   
+                  ₽
+                </span>
+                <span
+                  class="_old_5a3e99"
+                >
+                  2000
+                   
+                  ₽
+                </span>
+              </div>
+            </div>
+            <div
+              class="_actions_01e065"
+            >
+              <div
+                class="_container_861903"
+                data-testid="rating"
+              >
+                <svg
+                  class="icon icon-star-filled _icon_861903 filled"
+                  data-testid="icon"
+                  height="24"
+                  width="24"
+                >
+                  <use
+                    xlink:href="/images/icons.svg#star-filled"
+                  />
+                </svg>
+                <p
+                  class="_text_861903"
+                >
+                  3.8
+                </p>
+              </div>
+              <button
+                class="_button_0302f3 _button_9e4ee0 _link-primary_0302f3 _md_0302f3"
+                data-testid="button-add-to-cart"
+                type="button"
+              >
+                Купить
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="_container_437bb5"
+      >
+        <h2
+          class="_title_437bb5"
+        >
+          Беспроводные наушники
+        </h2>
+        <div
+          class="_items_437bb5"
+        >
+          <div
+            class="_container_1d0052 _container_01e065"
+            data-testid="product-card"
+          >
+            <a
+              aria-label="Быстрый просмотр товара"
+              class="_link_01e065"
+              href="/overview/7"
+              title="Быстрый просмотр"
+            >
+              <svg
+                class="icon icon-eye"
+                data-testid="icon"
+                height="22"
+                width="22"
+              >
+                <use
+                  xlink:href="/images/icons.svg#eye"
+                />
+              </svg>
+            </a>
+            <div
+              class="_image_01e065"
+            >
+              <img
+                alt="Apple AirPods"
+                height="238"
+                src="/images/catalog/headphone-4.png"
+                width="220"
+              />
+            </div>
+            <div
+              class="_information_01e065"
+            >
+              <a
+                class="_name_01e065"
+                href="/overview/7"
+              >
+                Apple AirPods
+              </a>
+              <div
+                class="_container_5a3e99 _vertical_5a3e99 _md_5a3e99"
+                data-testid="price"
+              >
+                <span
+                  class="_price_5a3e99"
+                >
+                  9527
+                   
+                  ₽
+                </span>
+              </div>
+            </div>
+            <div
+              class="_actions_01e065"
+            >
+              <div
+                class="_container_861903"
+                data-testid="rating"
+              >
+                <svg
+                  class="icon icon-star-filled _icon_861903 filled"
+                  data-testid="icon"
+                  height="24"
+                  width="24"
+                >
+                  <use
+                    xlink:href="/images/icons.svg#star-filled"
+                  />
+                </svg>
+                <p
+                  class="_text_861903"
+                >
+                  4.7
+                </p>
+              </div>
+              <button
+                class="_button_0302f3 _button_9e4ee0 _link-primary_0302f3 _md_0302f3"
+                data-testid="button-add-to-cart"
+                type="button"
+              >
+                Купить
+              </button>
+            </div>
+          </div>
+          <div
+            class="_container_1d0052 _container_01e065"
+            data-testid="product-card"
+          >
+            <a
+              aria-label="Быстрый просмотр товара"
+              class="_link_01e065"
+              href="/overview/8"
+              title="Быстрый просмотр"
+            >
+              <svg
+                class="icon icon-eye"
+                data-testid="icon"
+                height="22"
+                width="22"
+              >
+                <use
+                  xlink:href="/images/icons.svg#eye"
+                />
+              </svg>
+            </a>
+            <div
+              class="_image_01e065"
+            >
+              <img
+                alt="GERLAX GH-04"
+                height="238"
+                src="/images/catalog/headphone-5.png"
+                width="220"
+              />
+            </div>
+            <div
+              class="_information_01e065"
+            >
+              <a
+                class="_name_01e065"
+                href="/overview/8"
+              >
+                GERLAX GH-04
+              </a>
+              <div
+                class="_container_5a3e99 _vertical_5a3e99 _md_5a3e99"
+                data-testid="price"
+              >
+                <span
+                  class="_price_5a3e99"
+                >
+                  6527
+                   
+                  ₽
+                </span>
+              </div>
+            </div>
+            <div
+              class="_actions_01e065"
+            >
+              <div
+                class="_container_861903"
+                data-testid="rating"
+              >
+                <svg
+                  class="icon icon-star-filled _icon_861903 filled"
+                  data-testid="icon"
+                  height="24"
+                  width="24"
+                >
+                  <use
+                    xlink:href="/images/icons.svg#star-filled"
+                  />
+                </svg>
+                <p
+                  class="_text_861903"
+                >
+                  4.7
+                </p>
+              </div>
+              <button
+                class="_button_0302f3 _button_9e4ee0 _link-primary_0302f3 _md_0302f3"
+                data-testid="button-add-to-cart"
+                type="button"
+              >
+                Купить
+              </button>
+            </div>
+          </div>
+          <div
+            class="_container_1d0052 _container_01e065"
+            data-testid="product-card"
+          >
+            <a
+              aria-label="Быстрый просмотр товара"
+              class="_link_01e065"
+              href="/overview/9"
+              title="Быстрый просмотр"
+            >
+              <svg
+                class="icon icon-eye"
+                data-testid="icon"
+                height="22"
+                width="22"
+              >
+                <use
+                  xlink:href="/images/icons.svg#eye"
+                />
+              </svg>
+            </a>
+            <div
+              class="_image_01e065"
+            >
+              <img
+                alt="BOROFONE BO4"
+                height="238"
+                src="/images/catalog/headphone-6.png"
+                width="220"
+              />
+            </div>
+            <div
+              class="_information_01e065"
+            >
+              <a
+                class="_name_01e065"
+                href="/overview/9"
+              >
+                BOROFONE BO4
+              </a>
+              <div
+                class="_container_5a3e99 _vertical_5a3e99 _md_5a3e99"
+                data-testid="price"
+              >
+                <span
+                  class="_price_5a3e99"
+                >
+                  7527
+                   
+                  ₽
+                </span>
+              </div>
+            </div>
+            <div
+              class="_actions_01e065"
+            >
+              <div
+                class="_container_861903"
+                data-testid="rating"
+              >
+                <svg
+                  class="icon icon-star-filled _icon_861903 filled"
+                  data-testid="icon"
+                  height="24"
+                  width="24"
+                >
+                  <use
+                    xlink:href="/images/icons.svg#star-filled"
+                  />
+                </svg>
+                <p
+                  class="_text_861903"
+                >
+                  4.7
+                </p>
+              </div>
+              <button
+                class="_button_0302f3 _button_9e4ee0 _link-primary_0302f3 _md_0302f3"
+                data-testid="button-add-to-cart"
+                type="button"
+              >
+                Купить
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

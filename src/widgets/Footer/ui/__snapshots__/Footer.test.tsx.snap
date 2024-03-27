@@ -1,0 +1,458 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Footer > should match snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <footer
+        class="_container_794fa7"
+        data-testid="footer"
+      >
+        <div
+          class="container"
+        >
+          <div
+            class="_container_1d0052 _inner_794fa7"
+          >
+            <a
+              class="_logo_794fa7"
+              href="/"
+            >
+              <div
+                class="_container_4cc90f"
+                data-testid="logo"
+              >
+                <p
+                  class="_logo_4cc90f"
+                >
+                  Qpick
+                </p>
+              </div>
+            </a>
+            <nav
+              class="_container_ca994d _vertical_ca994d"
+            >
+              <ul
+                class="_list_ca994d"
+              >
+                <li
+                  class="_container_cf770d"
+                  data-testid="menu-item"
+                >
+                  <a
+                    class="_link_cf770d"
+                    href="/favorite"
+                  >
+                    Избранное
+                  </a>
+                </li>
+                <li
+                  class="_container_cf770d"
+                  data-testid="menu-item"
+                >
+                  <a
+                    class="_link_cf770d"
+                    href="/cart"
+                  >
+                    Корзина
+                  </a>
+                </li>
+                <li
+                  class="_container_cf770d"
+                  data-testid="menu-item"
+                >
+                  <a
+                    class="_link_cf770d"
+                    href="/contact"
+                  >
+                    Контакты
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <div
+              class="_wrapper_794fa7"
+            >
+              <nav
+                class="_container_ca994d _vertical_ca994d"
+              >
+                <ul
+                  class="_list_ca994d"
+                >
+                  <li
+                    class="_container_cf770d"
+                    data-testid="menu-item"
+                  >
+                    <a
+                      class="_link_cf770d"
+                      href="/terms"
+                    >
+                      Условия сервиса
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+              <div
+                class="_container_b93fe0"
+              >
+                <svg
+                  class="icon icon-planet _icon_b93fe0"
+                  data-testid="icon"
+                  height="20"
+                  width="20"
+                >
+                  <use
+                    xlink:href="/images/icons.svg#planet"
+                  />
+                </svg>
+                <button
+                  class="_button_0302f3 _button_b93fe0 _active_b93fe0 _link-primary_0302f3 _sm_0302f3"
+                  data-testid="language-button"
+                  type="button"
+                >
+                  Рус
+                </button>
+                <button
+                  class="_button_0302f3 _button_b93fe0 _link-primary_0302f3 _sm_0302f3"
+                  data-testid="language-button"
+                  type="button"
+                >
+                  Eng
+                </button>
+              </div>
+            </div>
+            <nav
+              class="_container_ca994d _horizontal_ca994d"
+            >
+              <ul
+                class="_list_ca994d"
+              >
+                <li
+                  class="_item_f235a0"
+                >
+                  <a
+                    aria-label="VK"
+                    class="_link_f235a0"
+                    href="https://vk.com/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    title="VK"
+                  >
+                    <svg
+                      class="icon icon-vk-filled filled"
+                      data-testid="icon"
+                      height="30"
+                      width="30"
+                    >
+                      <use
+                        xlink:href="/images/icons.svg#vk-filled"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li
+                  class="_item_f235a0"
+                >
+                  <a
+                    aria-label="Telegram"
+                    class="_link_f235a0"
+                    href="https://telegram.org/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    title="Telegram"
+                  >
+                    <svg
+                      class="icon icon-telegram-filled filled"
+                      data-testid="icon"
+                      height="30"
+                      width="30"
+                    >
+                      <use
+                        xlink:href="/images/icons.svg#telegram-filled"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li
+                  class="_item_f235a0"
+                >
+                  <a
+                    aria-label="Whatsapp"
+                    class="_link_f235a0"
+                    href="https://www.whatsapp.com/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    title="Whatsapp"
+                  >
+                    <svg
+                      class="icon icon-whatsapp-filled filled"
+                      data-testid="icon"
+                      height="30"
+                      width="30"
+                    >
+                      <use
+                        xlink:href="/images/icons.svg#whatsapp-filled"
+                      />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>,
+  "container": <div>
+    <footer
+      class="_container_794fa7"
+      data-testid="footer"
+    >
+      <div
+        class="container"
+      >
+        <div
+          class="_container_1d0052 _inner_794fa7"
+        >
+          <a
+            class="_logo_794fa7"
+            href="/"
+          >
+            <div
+              class="_container_4cc90f"
+              data-testid="logo"
+            >
+              <p
+                class="_logo_4cc90f"
+              >
+                Qpick
+              </p>
+            </div>
+          </a>
+          <nav
+            class="_container_ca994d _vertical_ca994d"
+          >
+            <ul
+              class="_list_ca994d"
+            >
+              <li
+                class="_container_cf770d"
+                data-testid="menu-item"
+              >
+                <a
+                  class="_link_cf770d"
+                  href="/favorite"
+                >
+                  Избранное
+                </a>
+              </li>
+              <li
+                class="_container_cf770d"
+                data-testid="menu-item"
+              >
+                <a
+                  class="_link_cf770d"
+                  href="/cart"
+                >
+                  Корзина
+                </a>
+              </li>
+              <li
+                class="_container_cf770d"
+                data-testid="menu-item"
+              >
+                <a
+                  class="_link_cf770d"
+                  href="/contact"
+                >
+                  Контакты
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div
+            class="_wrapper_794fa7"
+          >
+            <nav
+              class="_container_ca994d _vertical_ca994d"
+            >
+              <ul
+                class="_list_ca994d"
+              >
+                <li
+                  class="_container_cf770d"
+                  data-testid="menu-item"
+                >
+                  <a
+                    class="_link_cf770d"
+                    href="/terms"
+                  >
+                    Условия сервиса
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <div
+              class="_container_b93fe0"
+            >
+              <svg
+                class="icon icon-planet _icon_b93fe0"
+                data-testid="icon"
+                height="20"
+                width="20"
+              >
+                <use
+                  xlink:href="/images/icons.svg#planet"
+                />
+              </svg>
+              <button
+                class="_button_0302f3 _button_b93fe0 _active_b93fe0 _link-primary_0302f3 _sm_0302f3"
+                data-testid="language-button"
+                type="button"
+              >
+                Рус
+              </button>
+              <button
+                class="_button_0302f3 _button_b93fe0 _link-primary_0302f3 _sm_0302f3"
+                data-testid="language-button"
+                type="button"
+              >
+                Eng
+              </button>
+            </div>
+          </div>
+          <nav
+            class="_container_ca994d _horizontal_ca994d"
+          >
+            <ul
+              class="_list_ca994d"
+            >
+              <li
+                class="_item_f235a0"
+              >
+                <a
+                  aria-label="VK"
+                  class="_link_f235a0"
+                  href="https://vk.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  title="VK"
+                >
+                  <svg
+                    class="icon icon-vk-filled filled"
+                    data-testid="icon"
+                    height="30"
+                    width="30"
+                  >
+                    <use
+                      xlink:href="/images/icons.svg#vk-filled"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li
+                class="_item_f235a0"
+              >
+                <a
+                  aria-label="Telegram"
+                  class="_link_f235a0"
+                  href="https://telegram.org/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  title="Telegram"
+                >
+                  <svg
+                    class="icon icon-telegram-filled filled"
+                    data-testid="icon"
+                    height="30"
+                    width="30"
+                  >
+                    <use
+                      xlink:href="/images/icons.svg#telegram-filled"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li
+                class="_item_f235a0"
+              >
+                <a
+                  aria-label="Whatsapp"
+                  class="_link_f235a0"
+                  href="https://www.whatsapp.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  title="Whatsapp"
+                >
+                  <svg
+                    class="icon icon-whatsapp-filled filled"
+                    data-testid="icon"
+                    height="30"
+                    width="30"
+                  >
+                    <use
+                      xlink:href="/images/icons.svg#whatsapp-filled"
+                    />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

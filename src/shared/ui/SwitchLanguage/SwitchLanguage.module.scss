@@ -1,0 +1,18 @@
+@import '~/app/assets/styles/_typography.scss';
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon {
+  stroke: var(--gray-600) !important;
+}
+
+.button {
+  &.active {
+    @include text-bold;
+    color: var(--yellow-500);
+  }
+}

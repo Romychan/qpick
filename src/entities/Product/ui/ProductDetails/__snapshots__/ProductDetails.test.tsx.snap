@@ -1,0 +1,252 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ProductDetails > should match snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="_container_ff5a21"
+        data-testid="product-details"
+      >
+        <div
+          class="_image_ff5a21"
+        >
+          <img
+            alt="Apple BYZ S852I"
+            height="270"
+            src="/images/catalog/headphone-1.png"
+            width="250"
+          />
+        </div>
+        <div
+          class="_content_ff5a21"
+        >
+          <div
+            class="_information_ff5a21"
+          >
+            <h1
+              class="_name_ff5a21"
+            >
+              Apple BYZ S852I
+            </h1>
+            <div
+              class="_container_861903"
+              data-testid="rating"
+            >
+              <svg
+                class="icon icon-star-filled _icon_861903 filled"
+                data-testid="icon"
+                height="24"
+                width="24"
+              >
+                <use
+                  xlink:href="/images/icons.svg#star-filled"
+                />
+              </svg>
+              <p
+                class="_text_861903"
+              >
+                4.7
+              </p>
+            </div>
+          </div>
+          <div
+            class="_information_ff5a21"
+          >
+            <div
+              class="_container_5a3e99 _horizontal_5a3e99 _lg_5a3e99"
+              data-testid="price"
+            >
+              <span
+                class="_price_5a3e99"
+              >
+                2 927 ₽
+                 
+              </span>
+              <span
+                class="_old_5a3e99"
+              >
+                3 527 ₽
+                 
+              </span>
+            </div>
+            <div
+              class="_actions_ff5a21"
+            >
+              <button>
+                Actions
+              </button>
+            </div>
+          </div>
+          <div
+            class="_information_ff5a21"
+          >
+            <div
+              class="_specification_ff5a21"
+            >
+              <p
+                class="_subtitle_ff5a21"
+              >
+                Описание
+              </p>
+              <p
+                class="_text_ff5a21"
+              >
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="_container_ff5a21"
+      data-testid="product-details"
+    >
+      <div
+        class="_image_ff5a21"
+      >
+        <img
+          alt="Apple BYZ S852I"
+          height="270"
+          src="/images/catalog/headphone-1.png"
+          width="250"
+        />
+      </div>
+      <div
+        class="_content_ff5a21"
+      >
+        <div
+          class="_information_ff5a21"
+        >
+          <h1
+            class="_name_ff5a21"
+          >
+            Apple BYZ S852I
+          </h1>
+          <div
+            class="_container_861903"
+            data-testid="rating"
+          >
+            <svg
+              class="icon icon-star-filled _icon_861903 filled"
+              data-testid="icon"
+              height="24"
+              width="24"
+            >
+              <use
+                xlink:href="/images/icons.svg#star-filled"
+              />
+            </svg>
+            <p
+              class="_text_861903"
+            >
+              4.7
+            </p>
+          </div>
+        </div>
+        <div
+          class="_information_ff5a21"
+        >
+          <div
+            class="_container_5a3e99 _horizontal_5a3e99 _lg_5a3e99"
+            data-testid="price"
+          >
+            <span
+              class="_price_5a3e99"
+            >
+              2 927 ₽
+               
+            </span>
+            <span
+              class="_old_5a3e99"
+            >
+              3 527 ₽
+               
+            </span>
+          </div>
+          <div
+            class="_actions_ff5a21"
+          >
+            <button>
+              Actions
+            </button>
+          </div>
+        </div>
+        <div
+          class="_information_ff5a21"
+        >
+          <div
+            class="_specification_ff5a21"
+          >
+            <p
+              class="_subtitle_ff5a21"
+            >
+              Описание
+            </p>
+            <p
+              class="_text_ff5a21"
+            >
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

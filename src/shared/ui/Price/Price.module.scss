@@ -1,0 +1,79 @@
+@import '~/app/assets/styles/_typography.scss';
+
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  &.horizontal {
+    gap: 0.5rem;
+  }
+
+  &.vertical {
+    flex-direction: column;
+
+    & .old {
+      position: absolute;
+      bottom: -1rem;
+    }
+  }
+}
+
+.lg {
+  & .price {
+    @include text-lg;
+    @include text-semibold;
+  }
+
+  & .old {
+    @include text-sm;
+    @include text-semibold;
+  }
+}
+
+.md {
+  & .price {
+    @include text-md;
+    @include text-semibold;
+  }
+
+  & .old {
+    @include text-xs;
+    @include text-semibold;
+  }
+}
+
+.sm {
+  & .price {
+    @include text-sm;
+    @include text-medium;
+  }
+
+  & .old {
+    @include text-xs;
+    @include text-medium;
+  }
+}
+
+.xs {
+  & .price {
+    @include text-xs;
+    @include text-medium;
+  }
+
+  & .old {
+    @include text-xs;
+    @include text-medium;
+  }
+}
+
+.price {
+  color: var(--yellow-500);
+  white-space: nowrap;
+}
+
+.old {
+  text-decoration: line-through;
+  color: var(--yellow-300);
+  white-space: nowrap;
+}

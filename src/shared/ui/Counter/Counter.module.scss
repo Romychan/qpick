@@ -1,0 +1,27 @@
+@import '~/app/assets/styles/_typography.scss';
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.button {
+  background: var(--yellow-300);
+
+  &:hover {
+    background: var(--yellow-500);
+  }
+
+  & svg {
+    fill: #ffffff;
+  }
+}
+
+.counter {
+  width: 1.5rem;
+  @include text-md;
+  @include text-semibold;
+  text-align: center;
+  color: var(--gray-1000);
+}

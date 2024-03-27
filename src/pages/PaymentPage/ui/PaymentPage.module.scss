@@ -1,0 +1,11 @@
+@import '~/app/assets/styles/_typography.scss';
+
+.container {
+}
+
+.title {
+  @include text-lg;
+  @include text-semibold;
+  margin-bottom: 1rem;
+  color: var(--gray-800);
+}

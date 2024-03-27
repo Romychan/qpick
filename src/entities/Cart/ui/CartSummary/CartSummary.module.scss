@@ -1,0 +1,31 @@
+@import '~/app/assets/styles/_typography.scss';
+
+.container {
+  position: relative;
+  padding: 0px;
+  width: 100%;
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-default);
+  justify-self: flex-start;
+}
+
+.information {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2rem;
+}
+
+.text {
+  @include text-sm;
+  @include text-semibold;
+  text-transform: uppercase;
+  color: var(--gray-1000);
+}
+
+.actions {
+  width: 100%;
+
+  & button {
+    width: 100%;
+  }
+}
